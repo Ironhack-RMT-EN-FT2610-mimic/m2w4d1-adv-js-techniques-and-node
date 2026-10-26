@@ -1,0 +1,24 @@
+{
+  "name": "m2dw4d1-adv-js-techniques",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ironhack-RMT-EN-FT2610-mimic/m2w4d1-adv-js-techniques-and-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Ironhack-RMT-EN-FT2610-mimic/m2w4d1-adv-js-techniques-and-node/issues"
+  },
+  "homepage": "https://github.com/Ironhack-RMT-EN-FT2610-mimic/m2w4d1-adv-js-techniques-and-node#readme",
+  "dependencies": {
+    "cows": "^3.0.1"
+  }
+}
