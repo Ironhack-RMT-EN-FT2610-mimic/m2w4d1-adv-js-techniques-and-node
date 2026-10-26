@@ -34,7 +34,7 @@ console.log("copy", newUser)
 // when destruturing elements from array to get all others not destructured.
 // grabing multiple parameters from a function
 
-function checkIfPassed(...allNotes) {
+function checkIfPassed(username, ...allNotes) {
   // let allNotes = [arg1, arg2, arg3, arg4....]
   console.log(allNotes)
 
@@ -51,7 +51,7 @@ function checkIfPassed(...allNotes) {
 
 }
 
-checkIfPassed( 10, 5, 3 ) // 6
-checkIfPassed( 6, 5, 2 ) 
-checkIfPassed( 4, 3, 4, 10, 10 ) 
-checkIfPassed( 8 ) // 8
+checkIfPassed( "bob", 10, 5, 3, ) // 6
+checkIfPassed( "anna", 6, 5, 2 ) 
+checkIfPassed( "sarah", 4, 3, 4, 10, 10 ) 
+checkIfPassed( "michael", 8 ) // 8
